@@ -1,9 +1,13 @@
 import './App.css'
+import HomepageGallery from './components/homepage-gallery/homepage-gallery.component'
 import ApplicationNavbar from "./components/navbar/navbar.component"
 
 function App() {
   return (
-    <ApplicationNavbar />
+    <div>
+      <ApplicationNavbar />
+      <HomepageGallery />
+    </div>
   )
 }
 
